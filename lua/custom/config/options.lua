@@ -63,3 +63,6 @@ vim.opt.isfname:append("@-@")
 
 -- Set visual column at 100 spaces
 vim.opt.colorcolumn = "100"
+
+-- Set cursor to blink on insert
+vim.opt.guicursor = "i:blinkon1"
