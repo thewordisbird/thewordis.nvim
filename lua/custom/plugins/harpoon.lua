@@ -30,7 +30,7 @@ return {
 
     -- Add and remove the current page
     vim.keymap.set("n", "<C-a>", function() harpoon:list():append() end)
-    vim.keymap.set("n", "<C-x>", function() harpoon:list():remove() end);
+    vim.keymap.set("n", "<C-x>", function() harpoon:list():remove() end)
 
     -- Navigate with hot keys
     vim.keymap.set("n", "<C-j>", function() harpoon:list():select(1) end)
