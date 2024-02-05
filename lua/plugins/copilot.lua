@@ -1,7 +1,11 @@
 return {
-  "github/copilot.vim",
-  config = function()
-    vim.keymap.set({ 'n' }, '<leader>cp', ':Copilot enable<cr><cr>')
-    vim.keymap.set({ 'n' }, '<leader>cd', ':Copilot disable<cr><cr>')
-  end,
+  "zbirenbaum/copilot.lua",
+  cmd = "Copilot",
+  build = ":Copilot auth",
+  opts = {
+    suggestion = {
+      enabled = false,
+    },
+    panel = { enabled = false },
+  },
 }
