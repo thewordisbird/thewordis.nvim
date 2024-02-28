@@ -15,7 +15,7 @@ vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
-vim.opt.cindent = true -- C programming smart indents
+vim.opt.cindent = true     -- C programming smart indents
 vim.opt.smartindent = true -- like cindent, but works for other languages
 
 -- Wrap lines wider than the width of the window. Visual only, doesn't change text in buffer
@@ -66,3 +66,6 @@ vim.opt.colorcolumn = "100"
 
 -- Set cursor to blink on insert
 vim.opt.guicursor = "i:blinkon1"
+
+-- Set concelment
+vim.opt.conceallevel = 2
