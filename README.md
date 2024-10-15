@@ -17,6 +17,10 @@ Neovim's configurations are located under the following paths, depending on your
 | MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
 | Windows | `%userprofile%\AppData\Local\nvim\` |
 
+```
+git clone https://github.com/thewordisbird/thewordis.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
 ### Post Installation
 ### Configuration And Extension
 
